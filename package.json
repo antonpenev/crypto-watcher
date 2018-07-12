@@ -1,0 +1,21 @@
+{
+  "name": "twobots-crypto-watcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ccxt": "^1.12.44",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.2",
+    "technicalindicators": "^1.1.8"
+  }
+}
